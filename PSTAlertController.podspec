@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/steipete/PSTAlertController"
   s.license          = 'MIT'
   s.author           = { "Peter Steinberger" => "steipete@gmail.com" }
-  s.source           = { :git => "https://github.com/steipete/PSTAlertController.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/shore-gmbh/PSTAlertController.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/steipete'
 
   s.platform     = :ios, '7.0'
