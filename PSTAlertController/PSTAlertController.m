@@ -361,9 +361,10 @@ static NSUInteger PSTVisibleAlertsCount = 0;
 
 @implementation PSTAlertController (Convenience)
 
-+ (instancetype)actionWithTitle:(NSString *)title handler:(void (^)(PSTAlertAction *action))handler {
-    return [[self alloc] initWithTitle:title style:PSTAlertActionStyleDefault handler:handler];
-}
+// TODO: MD - this call fails
+//+ (instancetype)actionWithTitle:(NSString *)title handler:(void (^)(PSTAlertAction *action))handler {
+//    return [[self alloc] initWithTitle:title style:PSTAlertActionStyleDefault handler:handler];
+//}
 
 + (instancetype)alertWithTitle:(NSString *)title message:(NSString *)message {
     return [[self alloc] initWithTitle:title message:message preferredStyle:PSTAlertControllerStyleAlert];
